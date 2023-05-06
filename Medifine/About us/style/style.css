@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+}
+
+header{
+    height: 10vh;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:active{
+    color: #20bc7e;
+}
+header nav ul li a:hover{
+    color: #20bc7e;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.Logo img{
+    height: 75%;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    gap: 30px;
+    position: relative;
+}
+header nav ul li{
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+main h1{
+    margin-bottom: 15px;
+    color: #20bc7e;
+    font-weight: bold;
+}
+main .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+    font-weight: 500;
+    
+}
+.three-box{
+    display: flex;
+    margin-top: 20px;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    height: 30%;
+}
+.Box{
+    border-radius: 8px;
+    box-shadow: 5px;
+    width: 14vw;
+    text-align: center;
+    padding: 14px 20px;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px 3px  grey;
+    height: 50%;
+    margin-top: 10px;
+}
+.Color-change{
+    color:#20bc7e;
+    font-size: 20px;
+    font-weight: 900;
+}
+

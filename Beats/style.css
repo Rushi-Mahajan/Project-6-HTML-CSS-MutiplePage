@@ -1,0 +1,290 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: azure;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: #0f0f10;
+}
+header{
+    height: 10vh;
+    background-color: #0f0f10;;    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 100%;
+}
+header nav ul{
+    display: flex;
+    width: 90%;
+    justify-content: end;
+    align-items: end;
+    gap: 50px;
+    margin-right: 170px;
+} 
+.Logo{
+    margin-left: 200px;
+}
+header nav ul li{
+    list-style: none;
+    font-weight: 600;
+}
+.Button{
+    position: relative;
+    background-color:#1e1e21;
+    left: -105px;
+    /* height: 50px; */
+    width: 140px;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.onear{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.LeftPart-Onear{
+    position: relative;
+    margin-top:-100px;
+    height: 490px;
+    width: 20%;
+}
+.leftear1{
+    height: 100%;
+    width: 90%;
+}
+.RightPart-Onear{
+    display: flex;
+    flex-direction: column;   
+    height: 100%;
+    width: 90vh;
+}
+.onear-img{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.Beats-header{
+    margin-top: 25px;
+    margin-left: 150px;
+    font-size: 50px;
+}
+.Beats-overview{
+    margin-top: 25px;
+    margin-left: 150px;
+}
+.Paragraph{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.button-onear{
+    margin-top: 25px;
+    width: 45%;
+    margin-left: 150px;
+    background-color:#1e1e21;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+.bag-logo{
+    height: 15px;
+}
+.Price-onear{
+    font-size: 15px;
+}
+.Logo-of-anothercompany{
+    /* border: 1px solid aqua; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width: 100%; 
+    gap:100px;  
+    margin-top: 100px;
+    height: 30px;
+}
+.Logo-of-anothercompany img{
+    padding: 2px;
+    height: 100%;
+}
+.spec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Spec-image{
+    display: flex;
+    justify-content: center;
+    height: 55px;   
+}
+.Spec-image img{
+    height: 100%;
+}
+.Spec{
+    margin-top: 45px;    
+}
+.Spec-part1{
+    width: 20%;
+    margin-top: 30px;
+}
+.Spec-part1 div{
+    margin-top: 10px;
+}
+.Spec-part1 div:first-child{
+    margin-left: 55px;
+}
+.Spec-part1 div:last-child{
+    margin-left: 55px;
+}
+.Spec-part1 div span:last-child{
+    font-size: 12px;
+}
+.Spec-part1 div span:first-child{
+    font-size: 12px;
+}
+.Spec-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Spec-part2 img{
+    margin-top: 60px;
+}
+.Case{
+    width: 100%;
+}
+.Case-Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    height: 55px
+}
+.Case-Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    /* border: 1px solid aqua; */
+    height: 30%;
+}
+.Case-Image img{
+    height: 55px;
+}
+
+.Case-part2{
+    width: 20%;
+    margin-left: 30px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.Case-part2 button{
+    margin-top: 10px;
+    width: 60%;
+    background: #1e1e21;
+    border: 1px solid  #1e1e21;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border-radius: 5px;
+}
+.Case2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #1e1e21;
+    width: 70%;
+    margin-left: 200px;
+    margin-right: 400px;
+    padding: 40px;
+    border-radius: 5px;
+    margin-top: 95px;
+}
+.Case2-part1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;   
+}
+.Case2-part1 button{
+    width: 55%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    display: flex;
+    color: white;
+}
+.Case2-part1 img{
+    height: 20px;
+}
+.Case2-part1 span{
+    font-size: 13px;
+    color: gray;
+}
+
+footer{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 100px;
+    width: 100%;
+}
+footer nav ul li {
+    list-style: none;
+}
+.Footer-subs-soical-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Footer-soical-meida ul{
+    display: flex;
+    gap: 7px;
+    margin-top: 10px;
+
+}
+.Footer-soical-meida ul li{
+    list-style: none;
+
+}
+.Footer-subs-button input{
+    background-color: #1e1e21;
+    padding: 10px;
+    width: 300px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid ba;
+}
+.Footer-subs-button Button{
+    background-color: #1e1e21;
+    height: 100%;
+    position: relative;
+    left: -106px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5PX;
+}

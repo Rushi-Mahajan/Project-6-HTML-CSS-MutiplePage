@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+}
+
+header{
+    height: 10vh;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.Logo img{
+    height: 75%;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    gap: 30px;
+    position: relative;
+}
+header nav ul li{
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:active{
+    color: #20bc7e;
+}
+header nav ul li a:hover{
+    color: #20bc7e;
+}
+Main{
+    display: flex;
+    flex-direction: row;
+}
+.Part1{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    margin-left: 30px;
+    background-image: url(/Images/stethoscope.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;    
+}
+h1{
+    font-size: 60px;
+}
+span{
+    margin-top: 20px;
+    color: rgb(143, 120, 120);
+}
+Main section .Part-Last1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.Part2{
+    
+    width: 40%;
+    height: 100vh;    
+}
+.green{
+    /* width: 100%; */
+    position: relative;
+    top: 150px;
+    z-index: 1;
+    height: 80%;
+    width: 90%;
+    left: 25px;
+}
+.doctor{
+    position: absolute;
+    top: 65px;
+    width: 40%;
+    height: 100%;
+    right: 19px;
+    z-index: 3;
+}
+.yellow{
+    position: relative;
+    bottom: 250px;
+    z-index: 2;
+    height: 61%;
+    left: 112px;  
+}
+button{
+    color: white;
+    border: 1px solid #20bc7e;
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin: 4px;
+    font-weight: bold;
+    background-color: #20bc7e;
+    
+}
+main section .bottom-angle{
+    margin-bottom: 20px;
+}
